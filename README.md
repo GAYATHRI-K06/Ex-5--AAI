@@ -55,10 +55,13 @@ plt.plot([s[0] for s in truestates],label="true")
 plt.plot([s[0] for s in est_states],label="Estimate")
 plt.legend()
 plt.show()
-```
+````````
 
-<H3>Output:</H3>
-![image](https://github.com/user-attachments/assets/7777eedd-d3c9-4fdd-a3e7-14822202fd66)
+## Output:
+[image](https://github.com/user-attachments/assets/89041367-e09e-4eb6-b766-33bdce917e53)
+
+
+
 <H3>Results:</H3>
 Thus, Kalman filter is implemented to predict the next position and   velocity in Python
 
